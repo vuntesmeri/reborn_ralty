@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: black;
 }
 
 .body {
@@ -109,6 +110,7 @@ footer p {
 
 @media (max-width:900px) {
     .main__info {
+        margin: 3vw;
         gap: 2vh;
     }
 
@@ -125,7 +127,7 @@ footer p {
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:600px) {
     .main__info {
         gap: 10vh;
         width: 40vh;
