@@ -1,9 +1,9 @@
-html {
+body {
     margin: 0px;
     padding: 0px;
 }
 
-body {
+.body {
     width: 100vw;
     height: 100vh;
     margin: 0px;
@@ -109,25 +109,23 @@ footer p {
 
 @media (max-width:900px) {
     .main__info {
-        gap: 7vw;
+        gap: 2vh;
     }
 
     .main__text p {
-        font-size: 2vw;
-        width: 100%;
+        font-size: 16px;
     }
 
     .main__button-to {
-        font-size: 2vw;
-        width: 35vw;
+        font-size: 16px;
     }
 
     footer p {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
-@media (max-width:700px) {
+@media (max-width:400px) {
     .main__info {
         gap: 10vh;
         width: 40vh;
